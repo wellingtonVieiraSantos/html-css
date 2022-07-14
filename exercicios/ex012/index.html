@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex004/html.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!-- tumb do video é o poster -->
+    <video controls loop width="400" poster="../ex011/img/foto-m.png">
+        <!-- subir o video para o youtube e incorpore, recomendado m4v -->
+        <source src="midia/chuva.m4v" type="video/mp4">
+        <source src="midia/chuva.webm" type="video/webm">
+        <source src="midia/chuva.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p> 
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/oMqWcWhu-3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <!-- merma coisa do youtube, => compartilhar-incorporar -->
+    <!-- diferença = posso cobrar para ver o video no vimeo e no youtube nao -->
+</body>
+
+</html>
